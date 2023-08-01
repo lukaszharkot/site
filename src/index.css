@@ -55,7 +55,7 @@ body {
 .test{
   background-color: rgba(217, 217, 211, 1);
   position: absolute;
-  top: 95.5%; /* Adjust the value to control the vertical position */
+  top: 94%; /* Adjust the value to control the vertical position */
   left: 43%; /* Adjust the value to control the horizontal position */
   width: 160px; /* Adjust the value to control the width of the overlay div */
   height: 30px;
