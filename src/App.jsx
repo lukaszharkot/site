@@ -48,7 +48,7 @@ function App() {
       <div id='about' style={{ height: '910px', width: '100%', backgroundColor: 'white', boxShadow: '0 3px 10px rgb(0 0 0 / 0.2)', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
         <div style={{position: 'relative', width: '1200px', height: '800px'}}>
           <div style={{position: 'absolute', top: '15%', left: '5%'}}>
-            <img src="/src/assets/IMG_3570.png" alt="XD Placeholder" />
+            <img src="/public/IMG_3570.png" alt="XD Placeholder" />
           </div>
           <div style={{ display: 'flex',position: 'absolute', top: '10%', left: '8%' }}>
             <div ref={refs[0]} style={{display: 'flex'}}>
@@ -92,10 +92,10 @@ function App() {
           </div>
           <div ref={refs[14]} className={`slideInbottomVisable ${isInViewport[14] ? 'animated' : ''}`} style={{border: '16px solid', borderColor:'#d9d9d3',backgroundColor:'#d9d9d3', height: '420px', width: '600px', position:'absolute', top:'29%', left: '45%'}}></div>
           <div ref={refs[15]} className={`slideInbottom ${isInViewport[15] ? 'animated' : ''}`} style={{position: 'absolute', top: '29%', right: '11%'}}>
-            <img src="/src/assets/react.png" alt="React" width={'505px'}/>
+            <img src="/public/react.png" alt="React" width={'505px'}/>
           </div>
           <div ref={refs[16]} className={`slideInbottom ${isInViewport[16] ? 'animated' : ''}`} style={{position: 'absolute', top: '54%', right: '12%'}}>
-            <img src="/src/assets/javascript.png" alt="JavaScript" width={'475px'}/>
+            <img src="/public/javascript.png" alt="JavaScript" width={'475px'}/>
           </div>
         </div>
       </div>
@@ -126,10 +126,10 @@ function App() {
           </div>
           <div ref={refs[7]} className={`slideInbottomVisable ${isInViewport[7] ? 'animated' : ''}`} style={{opacity: '1' , border: '16px solid', borderColor:'#d9d9d3',backgroundColor:'#d9d9d3', height: '420px', width: '600px', position:'absolute', top:'32%', right: '45%'}}></div>
           <div ref={refs[8]} className={`slideInbottom ${isInViewport[8] ? 'animated' : ''}`} style={{position: 'absolute', top: '31%', left: '12%'}}>
-            <img src="/src/assets/python.png" alt="Python" width={'450px'}/>
+            <img src="/public/python.png" alt="Python" width={'450px'}/>
           </div>
           <div ref={refs[9]} className={`slideInbottom ${isInViewport[9] ? 'animated' : ''}`} style={{position: 'absolute', top: '55%', left: '12%'}}>
-            <img src="/src/assets/fastapi.png" alt="FastApi" width={'450px'}/>
+            <img src="/public/fastapi.png" alt="FastApi" width={'450px'}/>
           </div>
         </div>
       </div>
